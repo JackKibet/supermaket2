@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>My E-commerce Website</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+ /* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body and Background */
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("mybackgroundh.jpg");
+  background-size: cover;
+  height: 100vh;
+  color: white;
+}
+
+/* Navigation Bar Styles */
+.navbar {
+  background: rgba(4, 136, 180, 0.8); /* Light Blue Background */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 15px 30px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.navbar li {
+  font-size: 20px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover Effect on Links */
+.navbar a:hover {
+  color: rgba(9, 72, 245, 0.7); /* Faded Grey on Hover */
+  transform: scale(1.1); /* Slight zoom effect */
+}
+
+/* Main Content Section */
+.content {
+  margin-top: 80px;
+  text-align: center;
+  padding: 50px;
+  background: rgba(0, 0, 0, 0.4); /* Slight dark background for text readability */
+  border-radius: 10px;
+}
+
+.content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.content p {
+  font-size: 1.5rem;
+}
+footer{
+  background-color: black;
+  color: aliceblue;
+  padding: 10px;
+  position: relative;
+  bottom: 0px;
+  top: 100%;
+  text-align: center;
+}
+  </style>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Electronics</a></li>
+      <li><a href="#">Perfumes</a></li>
+      <li><a href="#">Body Oils</a></li>
+      <li><a href="#">Furniture</a></li>
+      <li><a href="#">Clothes</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content Section -->
+  <section class="content">
+    <h1>Welcome to My E-commerce Website</h1>
+    <p>Explore the best in electronics, perfumes, body oils, furniture, and clothing.</p>
+    <!-- Add other content sections like product listings here -->
+  </section>
+<footer>
+  <p>&copy; 2025 all right reserved</p>
+</footer>
+</body>
+</html>
